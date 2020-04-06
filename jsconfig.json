@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "api/*": ["./src/api/*"],
+      "components/*": ["./src/components/*"],
+      "common/*": ["./src/common/*"],
+    },
+  },
+  "target": "es2017",
+  "allowSyntheticDefaultImports": false,
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
